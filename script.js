@@ -143,8 +143,8 @@ $(document).ready(function() {
           if (data.status === 200) {
              getAllTasks();
 
-             title.val("");
-             content.val("");
+           //  title.val("");
+           //  content.val("");
           }
        }
      });
