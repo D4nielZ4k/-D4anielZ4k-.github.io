@@ -142,9 +142,9 @@ $(document).ready(function() {
        complete: function(data) {
           if (data.status === 200) {
              getAllTasks();
-
-             taskTitle.val("");
-             taskContent.val("");
+              
+              title.val("");
+              content.val("");
           }
        }
      });
