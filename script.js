@@ -129,6 +129,9 @@ $(document).ready(function() {
 
      var requestUrl = apiRoot + 'createTask';
 
+    const title = $(this).find('[name="title"]');
+      const content = $(this).find('[name="content"]')
+    
      $.ajax({
         url: requestUrl,
         method: 'POST',
